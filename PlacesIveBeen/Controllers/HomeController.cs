@@ -1,17 +1,17 @@
 using Microsoft.AspNetCore.Mvc;
-using ToDoList.Models;
+using PlacesIveBeen.Models;
 
-namespace ToDoList.Controllers
+namespace PlacesIvBeen.Controllers
 {
   public class HomeController : Controller
   {
 
-    [Route("/")]
-    public ActionResult Index()
-    {
+    // [Route("/")]
+    // public ActionResult Index()
+    // {
 
-      return View();
-    }
+    //   return View();
+    // }
 
   }
 }
